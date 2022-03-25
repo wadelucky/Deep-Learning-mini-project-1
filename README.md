@@ -6,5 +6,7 @@ The pt file is the corresponding file containing the training weights of this ar
 
 The training time is relatively fast, normally around an hour, so it is quite easy to reproduce.
 
+*Note*: remember to change the logger filename or create a directory named **'log'** before run the script.
+
 The result is shown below.
 ![alt text](https://github.com/wadelucky/Deep-Learning-mini-project-1/blob/main/plt.png)
