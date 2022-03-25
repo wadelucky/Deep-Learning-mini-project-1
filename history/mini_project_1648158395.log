@@ -1,0 +1,165 @@
+DEBUG:root:number of params are 1564090
+DEBUG:root:epoch 0, train_loss 1.6336, train_accuracy 38.8631, test_loss 1.4373, test_accuracy 47.4288, cost time 18.9853
+DEBUG:root:epoch 1, train_loss 1.1211, train_accuracy 60.1295, test_loss 1.0440, test_accuracy 63.7164, cost time 17.6212
+DEBUG:root:epoch 2, train_loss 0.8084, train_accuracy 71.6764, test_loss 0.7879, test_accuracy 73.3287, cost time 17.6585
+DEBUG:root:epoch 3, train_loss 0.6437, train_accuracy 77.8752, test_loss 0.6582, test_accuracy 77.2053, cost time 17.7494
+DEBUG:root:epoch 4, train_loss 0.5508, train_accuracy 81.0981, test_loss 0.5637, test_accuracy 80.1029, cost time 17.7630
+DEBUG:root:epoch 5, train_loss 0.4774, train_accuracy 83.4303, test_loss 0.5281, test_accuracy 82.0214, cost time 17.7434
+DEBUG:root:epoch 6, train_loss 0.4318, train_accuracy 85.0232, test_loss 0.5178, test_accuracy 82.2389, cost time 17.7726
+DEBUG:root:epoch 7, train_loss 0.3858, train_accuracy 86.7419, test_loss 0.4893, test_accuracy 83.4850, cost time 17.7723
+DEBUG:root:epoch 8, train_loss 0.3551, train_accuracy 87.7370, test_loss 0.4454, test_accuracy 85.1859, cost time 17.8070
+DEBUG:root:epoch 9, train_loss 0.3260, train_accuracy 88.8027, test_loss 0.4479, test_accuracy 85.1464, cost time 17.6992
+DEBUG:root:epoch 10, train_loss 0.3000, train_accuracy 89.6663, test_loss 0.4811, test_accuracy 84.6025, cost time 17.6051
+DEBUG:root:epoch 11, train_loss 0.2797, train_accuracy 90.3169, test_loss 0.4373, test_accuracy 85.2057, cost time 17.6125
+DEBUG:root:epoch 12, train_loss 0.2592, train_accuracy 90.9443, test_loss 0.4041, test_accuracy 87.4110, cost time 17.6238
+DEBUG:root:epoch 13, train_loss 0.2378, train_accuracy 91.7140, test_loss 0.4428, test_accuracy 86.6001, cost time 17.6250
+DEBUG:root:epoch 14, train_loss 0.2257, train_accuracy 92.2003, test_loss 0.4325, test_accuracy 87.1638, cost time 17.6568
+DEBUG:root:epoch 15, train_loss 0.2083, train_accuracy 92.7753, test_loss 0.4105, test_accuracy 87.5692, cost time 17.6359
+DEBUG:root:epoch 16, train_loss 0.1976, train_accuracy 93.1857, test_loss 0.3838, test_accuracy 88.1230, cost time 17.6376
+DEBUG:root:epoch 17, train_loss 0.1841, train_accuracy 93.6205, test_loss 0.4171, test_accuracy 87.7077, cost time 17.6419
+DEBUG:root:epoch 18, train_loss 0.1774, train_accuracy 93.8319, test_loss 0.4260, test_accuracy 87.3517, cost time 17.6361
+DEBUG:root:epoch 19, train_loss 0.1590, train_accuracy 94.4465, test_loss 0.4067, test_accuracy 88.3010, cost time 17.6464
+DEBUG:root:epoch 20, train_loss 0.1054, train_accuracy 96.2360, test_loss 0.4163, test_accuracy 88.6867, cost time 17.6238
+DEBUG:root:epoch 21, train_loss 0.0898, train_accuracy 96.8342, test_loss 0.4041, test_accuracy 89.1911, cost time 17.6397
+DEBUG:root:epoch 22, train_loss 0.0847, train_accuracy 97.0432, test_loss 0.4164, test_accuracy 88.8944, cost time 17.6354
+DEBUG:root:epoch 23, train_loss 0.0752, train_accuracy 97.3973, test_loss 0.4365, test_accuracy 89.0427, cost time 17.6360
+DEBUG:root:epoch 24, train_loss 0.0705, train_accuracy 97.5819, test_loss 0.4483, test_accuracy 89.0328, cost time 17.6261
+DEBUG:root:epoch 25, train_loss 0.0707, train_accuracy 97.5144, test_loss 0.4507, test_accuracy 88.7065, cost time 17.6399
+DEBUG:root:epoch 26, train_loss 0.0629, train_accuracy 97.7825, test_loss 0.4407, test_accuracy 89.6262, cost time 17.6296
+DEBUG:root:epoch 27, train_loss 0.0633, train_accuracy 97.7825, test_loss 0.4999, test_accuracy 88.7263, cost time 17.6377
+DEBUG:root:epoch 28, train_loss 0.0589, train_accuracy 97.9408, test_loss 0.4943, test_accuracy 88.8153, cost time 17.6283
+DEBUG:root:epoch 29, train_loss 0.0544, train_accuracy 98.0786, test_loss 0.4866, test_accuracy 89.2603, cost time 17.6338
+DEBUG:root:epoch 30, train_loss 0.0570, train_accuracy 98.0215, test_loss 0.4742, test_accuracy 88.9735, cost time 17.6266
+DEBUG:root:epoch 31, train_loss 0.0510, train_accuracy 98.2305, test_loss 0.4901, test_accuracy 89.3790, cost time 17.6355
+DEBUG:root:epoch 32, train_loss 0.0496, train_accuracy 98.2525, test_loss 0.4660, test_accuracy 89.7251, cost time 17.7709
+DEBUG:root:epoch 33, train_loss 0.0476, train_accuracy 98.3851, test_loss 0.4969, test_accuracy 89.2405, cost time 17.7722
+DEBUG:root:epoch 34, train_loss 0.0477, train_accuracy 98.3040, test_loss 0.5270, test_accuracy 88.9240, cost time 17.7709
+DEBUG:root:epoch 35, train_loss 0.0478, train_accuracy 98.3652, test_loss 0.5319, test_accuracy 89.0922, cost time 17.7706
+DEBUG:root:epoch 36, train_loss 0.0420, train_accuracy 98.5322, test_loss 0.4943, test_accuracy 89.4877, cost time 17.7734
+DEBUG:root:epoch 37, train_loss 0.0419, train_accuracy 98.5742, test_loss 0.5311, test_accuracy 88.8845, cost time 17.7835
+DEBUG:root:epoch 38, train_loss 0.0419, train_accuracy 98.5330, test_loss 0.5232, test_accuracy 89.6064, cost time 17.7708
+DEBUG:root:epoch 39, train_loss 0.0415, train_accuracy 98.5318, test_loss 0.4912, test_accuracy 89.7449, cost time 17.6248
+DEBUG:root:epoch 40, train_loss 0.0227, train_accuracy 99.2207, test_loss 0.5234, test_accuracy 90.0613, cost time 17.6310
+DEBUG:root:epoch 41, train_loss 0.0167, train_accuracy 99.5025, test_loss 0.5555, test_accuracy 89.5570, cost time 17.6269
+DEBUG:root:epoch 42, train_loss 0.0165, train_accuracy 99.4493, test_loss 0.5536, test_accuracy 90.0119, cost time 17.6352
+DEBUG:root:epoch 43, train_loss 0.0147, train_accuracy 99.4985, test_loss 0.5662, test_accuracy 89.9822, cost time 17.6483
+DEBUG:root:epoch 44, train_loss 0.0146, train_accuracy 99.5213, test_loss 0.5916, test_accuracy 89.5866, cost time 17.6503
+DEBUG:root:epoch 45, train_loss 0.0156, train_accuracy 99.4641, test_loss 0.5743, test_accuracy 90.1602, cost time 17.6519
+DEBUG:root:epoch 46, train_loss 0.0176, train_accuracy 99.4254, test_loss 0.5644, test_accuracy 89.7943, cost time 17.6422
+DEBUG:root:epoch 47, train_loss 0.0147, train_accuracy 99.4673, test_loss 0.5826, test_accuracy 89.9822, cost time 17.6537
+DEBUG:root:epoch 48, train_loss 0.0159, train_accuracy 99.4905, test_loss 0.5792, test_accuracy 89.8536, cost time 17.6388
+DEBUG:root:epoch 49, train_loss 0.0149, train_accuracy 99.5045, test_loss 0.5613, test_accuracy 89.8833, cost time 17.6406
+DEBUG:root:epoch 50, train_loss 0.0146, train_accuracy 99.4841, test_loss 0.5852, test_accuracy 89.9229, cost time 17.6415
+DEBUG:root:epoch 51, train_loss 0.0125, train_accuracy 99.5684, test_loss 0.5916, test_accuracy 89.9229, cost time 17.6495
+DEBUG:root:epoch 52, train_loss 0.0133, train_accuracy 99.5472, test_loss 0.6378, test_accuracy 89.3394, cost time 17.6351
+DEBUG:root:epoch 53, train_loss 0.0149, train_accuracy 99.5005, test_loss 0.6024, test_accuracy 89.7844, cost time 17.6404
+DEBUG:root:epoch 54, train_loss 0.0129, train_accuracy 99.5800, test_loss 0.6408, test_accuracy 89.5471, cost time 17.6322
+DEBUG:root:epoch 55, train_loss 0.0130, train_accuracy 99.5664, test_loss 0.6068, test_accuracy 89.7547, cost time 17.6301
+DEBUG:root:epoch 56, train_loss 0.0120, train_accuracy 99.6052, test_loss 0.6078, test_accuracy 90.1207, cost time 17.6406
+DEBUG:root:epoch 57, train_loss 0.0127, train_accuracy 99.5704, test_loss 0.6542, test_accuracy 89.3888, cost time 17.6299
+DEBUG:root:epoch 58, train_loss 0.0129, train_accuracy 99.5504, test_loss 0.6124, test_accuracy 90.0316, cost time 17.6376
+DEBUG:root:epoch 59, train_loss 0.0117, train_accuracy 99.6132, test_loss 0.6747, test_accuracy 89.3691, cost time 17.6331
+DEBUG:root:epoch 60, train_loss 0.0081, train_accuracy 99.7602, test_loss 0.6211, test_accuracy 90.1108, cost time 17.6354
+DEBUG:root:epoch 61, train_loss 0.0051, train_accuracy 99.8441, test_loss 0.6097, test_accuracy 90.4964, cost time 17.7168
+DEBUG:root:epoch 62, train_loss 0.0056, train_accuracy 99.8322, test_loss 0.6302, test_accuracy 90.1701, cost time 17.7745
+DEBUG:root:epoch 63, train_loss 0.0055, train_accuracy 99.8501, test_loss 0.6058, test_accuracy 90.6349, cost time 17.7729
+DEBUG:root:epoch 64, train_loss 0.0042, train_accuracy 99.8821, test_loss 0.6385, test_accuracy 90.3085, cost time 17.7742
+DEBUG:root:epoch 65, train_loss 0.0053, train_accuracy 99.8421, test_loss 0.6297, test_accuracy 90.4371, cost time 17.7787
+DEBUG:root:epoch 66, train_loss 0.0043, train_accuracy 99.8661, test_loss 0.6302, test_accuracy 90.4470, cost time 17.7947
+DEBUG:root:epoch 67, train_loss 0.0052, train_accuracy 99.8342, test_loss 0.6568, test_accuracy 90.2492, cost time 17.6409
+DEBUG:root:epoch 68, train_loss 0.0054, train_accuracy 99.8282, test_loss 0.6441, test_accuracy 90.2789, cost time 17.6282
+DEBUG:root:epoch 69, train_loss 0.0050, train_accuracy 99.8342, test_loss 0.7012, test_accuracy 90.0514, cost time 17.6329
+DEBUG:root:epoch 70, train_loss 0.0041, train_accuracy 99.8821, test_loss 0.6761, test_accuracy 90.6052, cost time 17.6272
+DEBUG:root:epoch 71, train_loss 0.0047, train_accuracy 99.8581, test_loss 0.6705, test_accuracy 90.2789, cost time 17.6276
+DEBUG:root:epoch 72, train_loss 0.0039, train_accuracy 99.8561, test_loss 0.6518, test_accuracy 90.5657, cost time 17.6382
+DEBUG:root:epoch 73, train_loss 0.0042, train_accuracy 99.8741, test_loss 0.6720, test_accuracy 90.3778, cost time 17.6498
+DEBUG:root:epoch 74, train_loss 0.0046, train_accuracy 99.8561, test_loss 0.6652, test_accuracy 90.1701, cost time 17.6552
+DEBUG:root:epoch 75, train_loss 0.0044, train_accuracy 99.8641, test_loss 0.6992, test_accuracy 89.4976, cost time 17.6484
+DEBUG:root:epoch 76, train_loss 0.0041, train_accuracy 99.8741, test_loss 0.6746, test_accuracy 89.8141, cost time 17.6487
+DEBUG:root:epoch 77, train_loss 0.0044, train_accuracy 99.8701, test_loss 0.6755, test_accuracy 90.1503, cost time 17.6437
+DEBUG:root:epoch 78, train_loss 0.0035, train_accuracy 99.8801, test_loss 0.6840, test_accuracy 90.2492, cost time 17.6532
+DEBUG:root:epoch 79, train_loss 0.0045, train_accuracy 99.8561, test_loss 0.7050, test_accuracy 90.0119, cost time 17.6454
+DEBUG:root:epoch 80, train_loss 0.0030, train_accuracy 99.9001, test_loss 0.6633, test_accuracy 90.5459, cost time 17.6505
+DEBUG:root:epoch 81, train_loss 0.0024, train_accuracy 99.9281, test_loss 0.6723, test_accuracy 90.3976, cost time 17.6330
+DEBUG:root:epoch 82, train_loss 0.0026, train_accuracy 99.9169, test_loss 0.6873, test_accuracy 90.4569, cost time 17.6504
+DEBUG:root:epoch 83, train_loss 0.0023, train_accuracy 99.9341, test_loss 0.6842, test_accuracy 90.4371, cost time 17.6321
+DEBUG:root:epoch 84, train_loss 0.0019, train_accuracy 99.9520, test_loss 0.6697, test_accuracy 90.5854, cost time 17.6347
+DEBUG:root:epoch 85, train_loss 0.0023, train_accuracy 99.9401, test_loss 0.6667, test_accuracy 90.5756, cost time 17.6405
+DEBUG:root:epoch 86, train_loss 0.0023, train_accuracy 99.9301, test_loss 0.6868, test_accuracy 90.5756, cost time 17.6318
+DEBUG:root:epoch 87, train_loss 0.0020, train_accuracy 99.9341, test_loss 0.6858, test_accuracy 90.5953, cost time 17.6421
+DEBUG:root:epoch 88, train_loss 0.0018, train_accuracy 99.9620, test_loss 0.6853, test_accuracy 90.5657, cost time 17.6297
+DEBUG:root:epoch 89, train_loss 0.0018, train_accuracy 99.9560, test_loss 0.6894, test_accuracy 90.5558, cost time 17.7142
+DEBUG:root:epoch 90, train_loss 0.0016, train_accuracy 99.9620, test_loss 0.6942, test_accuracy 90.5558, cost time 17.7735
+DEBUG:root:epoch 91, train_loss 0.0020, train_accuracy 99.9421, test_loss 0.7189, test_accuracy 90.1108, cost time 17.7720
+DEBUG:root:epoch 92, train_loss 0.0014, train_accuracy 99.9700, test_loss 0.7211, test_accuracy 90.1602, cost time 17.7695
+DEBUG:root:epoch 93, train_loss 0.0019, train_accuracy 99.9481, test_loss 0.7027, test_accuracy 90.3778, cost time 17.7750
+DEBUG:root:epoch 94, train_loss 0.0017, train_accuracy 99.9501, test_loss 0.7082, test_accuracy 90.2987, cost time 17.7838
+DEBUG:root:epoch 95, train_loss 0.0016, train_accuracy 99.9540, test_loss 0.7153, test_accuracy 90.4470, cost time 17.7988
+DEBUG:root:epoch 96, train_loss 0.0017, train_accuracy 99.9441, test_loss 0.6940, test_accuracy 90.5162, cost time 17.6725
+DEBUG:root:epoch 97, train_loss 0.0014, train_accuracy 99.9540, test_loss 0.7050, test_accuracy 90.6151, cost time 17.6335
+DEBUG:root:epoch 98, train_loss 0.0019, train_accuracy 99.9461, test_loss 0.7354, test_accuracy 90.2591, cost time 17.6270
+DEBUG:root:epoch 99, train_loss 0.0013, train_accuracy 99.9680, test_loss 0.7292, test_accuracy 90.3184, cost time 17.6421
+DEBUG:root:ResNet(
+  (conv1): Conv2d(3, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+  (bn1): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (layer1): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential()
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(48, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(48, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential()
+    )
+  )
+  (layer2): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(48, 96, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential(
+        (0): Conv2d(48, 96, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(96, 96, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(96, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential()
+    )
+  )
+  (layer3): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(96, 192, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential(
+        (0): Conv2d(96, 192, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (conv2): Conv2d(192, 192, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(192, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (shortcut): Sequential()
+    )
+  )
+  (avg_pool): AvgPool2d(kernel_size=6, stride=6, padding=0)
+  (linear): Linear(in_features=192, out_features=10, bias=True)
+)
+DEBUG:root:train_loss_hist: [1.6336439677211634, 1.121124400812037, 0.8084455858106199, 0.6436599823062682, 0.5507902806372289, 0.47735634126016857, 0.43179410128184903, 0.3858052802360271, 0.3550627153852712, 0.3260161838186976, 0.299959172411343, 0.2796851215917436, 0.25920371263457076, 0.23778916386615895, 0.22572154797556454, 0.208341505750061, 0.19764574828660092, 0.18408216467446378, 0.17740416316234547, 0.1590419579821322, 0.10538568064246488, 0.08978004215756798, 0.08466899433337591, 0.07517994814993018, 0.07053494045172659, 0.07071575658191043, 0.06286672390687763, 0.0632986679954259, 0.058908115172653895, 0.05444177267525126, 0.05696809730823616, 0.0509834444945883, 0.04958556480157901, 0.047599205398893986, 0.04773006118510081, 0.04778396764941647, 0.04199196196809087, 0.04187492838443812, 0.041908259326091886, 0.04148317302745121, 0.0227207505484195, 0.016731915051948824, 0.016545836601758856, 0.014694621851084196, 0.014609181931328095, 0.01558925193118746, 0.01759061547811441, 0.014664544396119101, 0.01590351917816069, 0.014906603942492434, 0.01458689917938586, 0.012504491729580243, 0.013309057280772587, 0.01485355529645958, 0.012931935521184474, 0.012997973848671993, 0.012006810456163029, 0.012723868977359753, 0.012892298817234424, 0.011659338739906055, 0.008136783562683384, 0.0050683912425383846, 0.005607456494233055, 0.005525076477130389, 0.004243778902047333, 0.0052627458212101625, 0.004266989506174312, 0.005204849742690931, 0.005391979911186717, 0.005034509203721271, 0.004050488343162452, 0.004727229559713679, 0.0038894634268692007, 0.004172043004759487, 0.004609100301931996, 0.004426186602856719, 0.0041192822634288475, 0.004372882737458506, 0.003532814365989023, 0.004450575429219705, 0.003013664936011745, 0.002420574340846805, 0.002592504988179219, 0.0022627098119638363, 0.0018619143477914741, 0.0023257968411978143, 0.002335640970496428, 0.002032341590589088, 0.0017947124360060236, 0.001823142646411297, 0.001613882465687737, 0.001967397717658583, 0.0013966844009440642, 0.0018976315625661435, 0.0017218659605716354, 0.0016011443308081904, 0.0016577596533941994, 0.0014488903440075735, 0.0018788374048215612, 0.001330136251279495] 
+DEBUG:root:train_acc_hist: [tensor(38.8631, device='cuda:0'), tensor(60.1295, device='cuda:0'), tensor(71.6764, device='cuda:0'), tensor(77.8752, device='cuda:0'), tensor(81.0981, device='cuda:0'), tensor(83.4303, device='cuda:0'), tensor(85.0232, device='cuda:0'), tensor(86.7419, device='cuda:0'), tensor(87.7370, device='cuda:0'), tensor(88.8027, device='cuda:0'), tensor(89.6663, device='cuda:0'), tensor(90.3169, device='cuda:0'), tensor(90.9443, device='cuda:0'), tensor(91.7140, device='cuda:0'), tensor(92.2003, device='cuda:0'), tensor(92.7753, device='cuda:0'), tensor(93.1857, device='cuda:0'), tensor(93.6205, device='cuda:0'), tensor(93.8319, device='cuda:0'), tensor(94.4465, device='cuda:0'), tensor(96.2360, device='cuda:0'), tensor(96.8342, device='cuda:0'), tensor(97.0432, device='cuda:0'), tensor(97.3973, device='cuda:0'), tensor(97.5819, device='cuda:0'), tensor(97.5144, device='cuda:0'), tensor(97.7825, device='cuda:0'), tensor(97.7825, device='cuda:0'), tensor(97.9408, device='cuda:0'), tensor(98.0786, device='cuda:0'), tensor(98.0215, device='cuda:0'), tensor(98.2305, device='cuda:0'), tensor(98.2525, device='cuda:0'), tensor(98.3851, device='cuda:0'), tensor(98.3040, device='cuda:0'), tensor(98.3652, device='cuda:0'), tensor(98.5322, device='cuda:0'), tensor(98.5742, device='cuda:0'), tensor(98.5330, device='cuda:0'), tensor(98.5318, device='cuda:0'), tensor(99.2207, device='cuda:0'), tensor(99.5025, device='cuda:0'), tensor(99.4493, device='cuda:0'), tensor(99.4985, device='cuda:0'), tensor(99.5213, device='cuda:0'), tensor(99.4641, device='cuda:0'), tensor(99.4254, device='cuda:0'), tensor(99.4673, device='cuda:0'), tensor(99.4905, device='cuda:0'), tensor(99.5045, device='cuda:0'), tensor(99.4841, device='cuda:0'), tensor(99.5684, device='cuda:0'), tensor(99.5472, device='cuda:0'), tensor(99.5005, device='cuda:0'), tensor(99.5800, device='cuda:0'), tensor(99.5664, device='cuda:0'), tensor(99.6052, device='cuda:0'), tensor(99.5704, device='cuda:0'), tensor(99.5504, device='cuda:0'), tensor(99.6132, device='cuda:0'), tensor(99.7602, device='cuda:0'), tensor(99.8441, device='cuda:0'), tensor(99.8322, device='cuda:0'), tensor(99.8501, device='cuda:0'), tensor(99.8821, device='cuda:0'), tensor(99.8421, device='cuda:0'), tensor(99.8661, device='cuda:0'), tensor(99.8342, device='cuda:0'), tensor(99.8282, device='cuda:0'), tensor(99.8342, device='cuda:0'), tensor(99.8821, device='cuda:0'), tensor(99.8581, device='cuda:0'), tensor(99.8561, device='cuda:0'), tensor(99.8741, device='cuda:0'), tensor(99.8561, device='cuda:0'), tensor(99.8641, device='cuda:0'), tensor(99.8741, device='cuda:0'), tensor(99.8701, device='cuda:0'), tensor(99.8801, device='cuda:0'), tensor(99.8561, device='cuda:0'), tensor(99.9001, device='cuda:0'), tensor(99.9281, device='cuda:0'), tensor(99.9169, device='cuda:0'), tensor(99.9341, device='cuda:0'), tensor(99.9520, device='cuda:0'), tensor(99.9401, device='cuda:0'), tensor(99.9301, device='cuda:0'), tensor(99.9341, device='cuda:0'), tensor(99.9620, device='cuda:0'), tensor(99.9560, device='cuda:0'), tensor(99.9620, device='cuda:0'), tensor(99.9421, device='cuda:0'), tensor(99.9700, device='cuda:0'), tensor(99.9481, device='cuda:0'), tensor(99.9501, device='cuda:0'), tensor(99.9540, device='cuda:0'), tensor(99.9441, device='cuda:0'), tensor(99.9540, device='cuda:0'), tensor(99.9461, device='cuda:0'), tensor(99.9680, device='cuda:0')]
+DEBUG:root:test_loss_hist: [1.437323657772209, 1.0439510526536386, 0.7878691674787787, 0.6581656695166721, 0.5636575633211981, 0.5280658602714539, 0.5177899719793585, 0.4893310918838163, 0.4454499905622458, 0.4479497412714777, 0.4811254679402219, 0.4373149622844744, 0.4041103596174264, 0.44276130425779125, 0.4325315109159373, 0.41050885598870773, 0.3837862216596362, 0.4171391140811051, 0.42600265560270867, 0.4067233606607099, 0.4163479652208618, 0.40409268344504923, 0.4164186008746111, 0.43649723522270784, 0.448268207190912, 0.45073579006557224, 0.44068296574339083, 0.499864492612549, 0.4943402004015597, 0.4866384953449044, 0.474249199975895, 0.4900594208436676, 0.4660397051255914, 0.49687549792513064, 0.5269803743385062, 0.5318597202436833, 0.49431956964957563, 0.5311468196443364, 0.5231975952658472, 0.4912380025356631, 0.5234183867143679, 0.5555234496729283, 0.5535905866683284, 0.5662473240230657, 0.5916476897612403, 0.574280944806111, 0.5644213657213163, 0.5825757814359062, 0.5792370497048656, 0.5612517344423488, 0.5851955081843123, 0.5916024071129062, 0.6378393226032015, 0.602365902330302, 0.6408003604487528, 0.6067515011829666, 0.607820103628726, 0.6542112736762324, 0.6124045605523677, 0.6747230225348775, 0.6211299924533579, 0.6097015606451638, 0.6302104081156887, 0.6058066508060769, 0.6385178928133808, 0.629699051757402, 0.6301599865472769, 0.6568172010062616, 0.644094131792648, 0.701156476441818, 0.6760657780532595, 0.6704920700079278, 0.651773911393896, 0.6719830152166041, 0.6652395151838472, 0.699187914404688, 0.6746349657260919, 0.6754955392849596, 0.6839702234992499, 0.7050141841173172, 0.6632854715932773, 0.6722522202549102, 0.6873480715329134, 0.6842142326545112, 0.6697086974789824, 0.6666786915893796, 0.6867913058664226, 0.685831601861157, 0.6852601191288308, 0.6893624821795693, 0.6942488692606552, 0.718928651247598, 0.7211108560426326, 0.7026835568720782, 0.7081605090370661, 0.7152616892811618, 0.6939519507975518, 0.7049803399021113, 0.7354446087456956, 0.7291807121113886]
+DEBUG:root:test_acc_hist: [tensor(47.4288, device='cuda:0'), tensor(63.7164, device='cuda:0'), tensor(73.3287, device='cuda:0'), tensor(77.2053, device='cuda:0'), tensor(80.1029, device='cuda:0'), tensor(82.0214, device='cuda:0'), tensor(82.2389, device='cuda:0'), tensor(83.4850, device='cuda:0'), tensor(85.1859, device='cuda:0'), tensor(85.1464, device='cuda:0'), tensor(84.6025, device='cuda:0'), tensor(85.2057, device='cuda:0'), tensor(87.4110, device='cuda:0'), tensor(86.6001, device='cuda:0'), tensor(87.1638, device='cuda:0'), tensor(87.5692, device='cuda:0'), tensor(88.1230, device='cuda:0'), tensor(87.7077, device='cuda:0'), tensor(87.3517, device='cuda:0'), tensor(88.3010, device='cuda:0'), tensor(88.6867, device='cuda:0'), tensor(89.1911, device='cuda:0'), tensor(88.8944, device='cuda:0'), tensor(89.0427, device='cuda:0'), tensor(89.0328, device='cuda:0'), tensor(88.7065, device='cuda:0'), tensor(89.6262, device='cuda:0'), tensor(88.7263, device='cuda:0'), tensor(88.8153, device='cuda:0'), tensor(89.2603, device='cuda:0'), tensor(88.9735, device='cuda:0'), tensor(89.3790, device='cuda:0'), tensor(89.7251, device='cuda:0'), tensor(89.2405, device='cuda:0'), tensor(88.9240, device='cuda:0'), tensor(89.0922, device='cuda:0'), tensor(89.4877, device='cuda:0'), tensor(88.8845, device='cuda:0'), tensor(89.6064, device='cuda:0'), tensor(89.7449, device='cuda:0'), tensor(90.0613, device='cuda:0'), tensor(89.5570, device='cuda:0'), tensor(90.0119, device='cuda:0'), tensor(89.9822, device='cuda:0'), tensor(89.5866, device='cuda:0'), tensor(90.1602, device='cuda:0'), tensor(89.7943, device='cuda:0'), tensor(89.9822, device='cuda:0'), tensor(89.8536, device='cuda:0'), tensor(89.8833, device='cuda:0'), tensor(89.9229, device='cuda:0'), tensor(89.9229, device='cuda:0'), tensor(89.3394, device='cuda:0'), tensor(89.7844, device='cuda:0'), tensor(89.5471, device='cuda:0'), tensor(89.7547, device='cuda:0'), tensor(90.1207, device='cuda:0'), tensor(89.3888, device='cuda:0'), tensor(90.0316, device='cuda:0'), tensor(89.3691, device='cuda:0'), tensor(90.1108, device='cuda:0'), tensor(90.4964, device='cuda:0'), tensor(90.1701, device='cuda:0'), tensor(90.6349, device='cuda:0'), tensor(90.3085, device='cuda:0'), tensor(90.4371, device='cuda:0'), tensor(90.4470, device='cuda:0'), tensor(90.2492, device='cuda:0'), tensor(90.2789, device='cuda:0'), tensor(90.0514, device='cuda:0'), tensor(90.6052, device='cuda:0'), tensor(90.2789, device='cuda:0'), tensor(90.5657, device='cuda:0'), tensor(90.3778, device='cuda:0'), tensor(90.1701, device='cuda:0'), tensor(89.4976, device='cuda:0'), tensor(89.8141, device='cuda:0'), tensor(90.1503, device='cuda:0'), tensor(90.2492, device='cuda:0'), tensor(90.0119, device='cuda:0'), tensor(90.5459, device='cuda:0'), tensor(90.3976, device='cuda:0'), tensor(90.4569, device='cuda:0'), tensor(90.4371, device='cuda:0'), tensor(90.5854, device='cuda:0'), tensor(90.5756, device='cuda:0'), tensor(90.5756, device='cuda:0'), tensor(90.5953, device='cuda:0'), tensor(90.5657, device='cuda:0'), tensor(90.5558, device='cuda:0'), tensor(90.5558, device='cuda:0'), tensor(90.1108, device='cuda:0'), tensor(90.1602, device='cuda:0'), tensor(90.3778, device='cuda:0'), tensor(90.2987, device='cuda:0'), tensor(90.4470, device='cuda:0'), tensor(90.5162, device='cuda:0'), tensor(90.6151, device='cuda:0'), tensor(90.2591, device='cuda:0'), tensor(90.3184, device='cuda:0')]
