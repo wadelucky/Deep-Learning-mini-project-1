@@ -9,4 +9,4 @@ The training time is relatively fast, normally around an hour, so it is quite ea
 *Note*: remember to change the logger filename or create a directory named **'log'** before run the script.
 
 The result is shown below.
-![alt text](https://github.com/wadelucky/Deep-Learning-mini-project-1/blob/main/plt.png)
+![alt text](https://github.com/wadelucky/Deep-Learning-mini-project-1/blob/main/history/7557.png)
