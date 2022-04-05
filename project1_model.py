@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 
-import time
+# import time
 import torch.nn.functional as F
 import torch
 import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
-import logging
+# import logging
+
 
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -109,138 +110,144 @@ class ResNet(nn.Module):
         return out
 
 
-model = ResNet(BasicBlock, [2, 2, 2]).to(device)
-
-# add a logger
-start_time = str(int(time.time()))
-logger_name = 'log/mini_project_' + start_time + '.log'
-logging.basicConfig(filename=logger_name, level=logging.DEBUG)
+def project1_model():
+    return ResNet(BasicBlock, [2, 2, 2])
+    # model = ResNet(BasicBlock, [2, 2, 2]).to(device)
+    # logging.debug('number of params are %s', count_parameters(model))
+    # print('number of params are ', count_parameters(model))
+    # add a logger
+    # start_time = str(int(time.time()))
+    # logger_name = 'log/mini_project_' + start_time + '.log'
+    # logging.basicConfig(filename=logger_name, level=logging.DEBUG)
 
 
 def count_parameters(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
 
-logging.debug('number of params are %s', count_parameters(model))
-print('number of params are ', count_parameters(model))
+def train_everything():
+    model = ResNet(BasicBlock, [2, 2, 2]).to(device)
+    # Hyper-parameters
+    num_epochs = 100
+    learning_rate = 0.1
+    decay_rate = 0
+    # Loss and optimizer
+    criterion = nn.CrossEntropyLoss()
+    # optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)  # TODO: add decay rate here
+    optimizer = torch.optim.SGD(model.parameters(),lr=learning_rate,momentum=0.9,weight_decay=0.0001)
 
-# Hyper-parameters
-num_epochs = 100
-learning_rate = 0.1
-decay_rate = 0
-# Loss and optimizer
-criterion = nn.CrossEntropyLoss()
-# optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)  # TODO: add decay rate here
-optimizer = torch.optim.SGD(model.parameters(),lr=learning_rate,momentum=0.9,weight_decay=0.0001)
-
-# For updating learning rate
-def update_lr(optimizer, lr):
-    for param_group in optimizer.param_groups:
-        param_group['lr'] = lr
+    # For updating learning rate
+    def update_lr(optimizer, lr):
+        for param_group in optimizer.param_groups:
+            param_group['lr'] = lr
 
 
-# Train the model
-total_step = len(train_loader)
-curr_lr = learning_rate
+    # Train the model
+    total_step = len(train_loader)
+    curr_lr = learning_rate
 
-#recorder
-train_loss_hist = []
-train_acc_hist = []
-test_loss_hist = []
-test_acc_hist = []
+    #recorder
+    train_loss_hist = []
+    train_acc_hist = []
+    test_loss_hist = []
+    test_acc_hist = []
 
-for epoch in range(num_epochs):
-    start = time.time()
-    train_loss, train_acc, test_loss, test_acc = 0.0, 0.0, 0.0, 0.0
+    for epoch in range(num_epochs):
+        # start = time.time()
+        train_loss, train_acc, test_loss, test_acc = 0.0, 0.0, 0.0, 0.0
 
-    for i, (images, labels) in enumerate(train_loader):
-        images = images.to(device)
-        labels = labels.to(device)
+        for i, (images, labels) in enumerate(train_loader):
+            images = images.to(device)
+            labels = labels.to(device)
 
-        # Forward pass
-        outputs = model(images)
-        loss = criterion(outputs, labels)
-        train_loss += loss.item()
-        train_acc += torch.max(outputs, dim=1)[1].eq(labels).sum()/len(labels)*100.0
-        # Backward and optimize
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-        # if (i + 1) % 100 == 0:
-        #     print("Epoch [{}/{}], Step [{}/{}] Loss: {:.4f}"
-        #           .format(epoch + 1, num_epochs, i + 1, total_step, loss.item()))
-
-    for i, (images, labels) in enumerate(test_loader):
-        images = images.to(device)
-        labels = labels.to(device)
-        with torch.no_grad():
-
+            # Forward pass
             outputs = model(images)
             loss = criterion(outputs, labels)
-            test_loss += loss.item()
-            test_acc += torch.max(outputs, dim=1)[1].eq(labels).sum() / len(labels) * 100.0
+            train_loss += loss.item()
+            train_acc += torch.max(outputs, dim=1)[1].eq(labels).sum()/len(labels)*100.0
+            # Backward and optimize
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
 
             # if (i + 1) % 100 == 0:
             #     print("Epoch [{}/{}], Step [{}/{}] Loss: {:.4f}"
             #           .format(epoch + 1, num_epochs, i + 1, total_step, loss.item()))
 
-    # Decay learning rate
-    if (epoch + 1) % 20 == 0:  # was 20
-        # curr_lr *= 0.9  # TODO: was 3
-        curr_lr /= 3
-        update_lr(optimizer, curr_lr)
-    stop = time.time()
-    train_loss_hist.append(train_loss/len(train_loader))
-    train_acc_hist.append(train_acc/len(train_loader))
-    test_loss_hist.append(test_loss/len(test_loader))
-    test_acc_hist.append(test_acc/len(test_loader))
-    msg = ('epoch {0}, train_loss {1:.4f}, train_accuracy {2:.4f}, '
-           'test_loss {3:.4f}, test_accuracy {4:.4f}, cost time {5:.4f}'.format(epoch,
-                                                             train_loss/len(train_loader),
-                                                             train_acc/len(train_loader),
-                                                             test_loss/len(test_loader),
-                                                             test_acc/len(test_loader),
-                                                             stop-start
-                                                             ))
-    logging.debug(msg)
-    print('epoch {0}, train_loss {1:.4f}, train_accuracy {2:.4f}, '
-          'test_loss {3:.4f}, test_accuracy {4:.4f}, cost time {5:.4f}'.format(epoch,
-                                                            train_loss/len(train_loader),
-                                                            train_acc/len(train_loader),
-                                                            test_loss/len(test_loader),
-                                                            test_acc/len(test_loader),
-                                                            stop-start
-                                                            ))
-# Specify a path
-PATH = 'project1_model_' + start_time + '.pt'
+        for i, (images, labels) in enumerate(test_loader):
+            images = images.to(device)
+            labels = labels.to(device)
+            with torch.no_grad():
 
-# Save
-torch.save(model, PATH)
+                outputs = model(images)
+                loss = criterion(outputs, labels)
+                test_loss += loss.item()
+                test_acc += torch.max(outputs, dim=1)[1].eq(labels).sum() / len(labels) * 100.0
 
-# # Load
-#
-#
-model = torch.load(PATH)
-logging.debug(model.eval())
-#
-# # Test the model
-# model.eval()
-# with torch.no_grad():
-#     correct = 0
-#     total = 0
-#     for images, labels in test_loader:
-#         images = images.to(device)
-#         labels = labels.to(device)
-#         outputs = model(images)
-#         _, predicted = torch.max(outputs.data, 1)
-#         total += labels.size(0)
-#         correct += (predicted == labels).sum().item()
-#
-#     print('Accuracy of the model on the test images: {} %'.format(100 * correct / total))
+                # if (i + 1) % 100 == 0:
+                #     print("Epoch [{}/{}], Step [{}/{}] Loss: {:.4f}"
+                #           .format(epoch + 1, num_epochs, i + 1, total_step, loss.item()))
 
-# data visualization
-logging.debug('train_loss_hist: %s ', train_loss_hist)
-logging.debug('train_acc_hist: %s', train_acc_hist)
-logging.debug('test_loss_hist: %s', test_loss_hist)
-logging.debug('test_acc_hist: %s', test_acc_hist)
+        # Decay learning rate
+        if (epoch + 1) % 20 == 0:  # was 20
+            # curr_lr *= 0.9  # TODO: was 3
+            curr_lr /= 3
+            update_lr(optimizer, curr_lr)
+        # stop = time.time()
+        train_loss_hist.append(train_loss/len(train_loader))
+        train_acc_hist.append(train_acc/len(train_loader))
+        test_loss_hist.append(test_loss/len(test_loader))
+        test_acc_hist.append(test_acc/len(test_loader))
+        msg = ('epoch {0}, train_loss {1:.4f}, train_accuracy {2:.4f}, '
+               'test_loss {3:.4f}, test_accuracy {4:.4f}, cost time {5:.4f}'.format(epoch,
+                                                                 train_loss/len(train_loader),
+                                                                 train_acc/len(train_loader),
+                                                                 test_loss/len(test_loader),
+                                                                 test_acc/len(test_loader),
+                                                                 stop-start
+                                                                 ))
+        # logging.debug(msg)
+        print('epoch {0}, train_loss {1:.4f}, train_accuracy {2:.4f}, '
+              'test_loss {3:.4f}, test_accuracy {4:.4f}, cost time {5:.4f}'.format(epoch,
+                                                                train_loss/len(train_loader),
+                                                                train_acc/len(train_loader),
+                                                                test_loss/len(test_loader),
+                                                                test_acc/len(test_loader),
+                                                                stop-start
+                                                                ))
+    # Specify a path
+    PATH = 'project1_model.pt'
+
+    # Save
+    torch.save(model, PATH)
+
+    # # Load
+    #
+    #
+    # model = torch.load(PATH)
+    # print(model.eval())
+    # logging.debug(model.eval())
+    #
+    # # Test the model
+    # model.eval()
+    # with torch.no_grad():
+    #     correct = 0
+    #     total = 0
+    #     for images, labels in test_loader:
+    #         images = images.to(device)
+    #         labels = labels.to(device)
+    #         outputs = model(images)
+    #         _, predicted = torch.max(outputs.data, 1)
+    #         total += labels.size(0)
+    #         correct += (predicted == labels).sum().item()
+    #
+    #     print('Accuracy of the model on the test images: {} %'.format(100 * correct / total))
+
+    # data visualization
+    # logging.debug('train_loss_hist: %s ', train_loss_hist)
+    # logging.debug('train_acc_hist: %s', train_acc_hist)
+    # logging.debug('test_loss_hist: %s', test_loss_hist)
+    # logging.debug('test_acc_hist: %s', test_acc_hist)
+
+if __name__ == '__main__':
+    train_everything()
